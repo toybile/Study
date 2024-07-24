@@ -1,0 +1,35 @@
+body {
+    background-color: cornflowerblue;
+}
+
+
+h1 {
+    color: slateblue;
+    border: 3px solid brown;
+}
+
+
+p, img {
+    z-index: 0;
+    padding: 5px 70px 0px 100px;
+    color: black;
+    margin-left: 50px;
+    font-size: 18;
+    font-weight: 300;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    transition: background-color 1s,scale 1s,box-shadow,rotate 6s,width 1s;
+    scale: 1 1;
+    rotate: 1deg;
+}
+
+p:hover, img:hover{
+    width: fit-content;
+    scale: 14 14;
+    background-color: red;
+    box-shadow: 4px 6px 54px 0px rgba(0,0,0,0.75);
+    rotate: 170deg;
+    z-index: 4;
+}
