@@ -1,0 +1,6 @@
+print("Prestação atrasada")
+V=float(input("Valor: "))
+T=int(input("Tempo de atraso (unidade de tempo em que a Taxa é cobrada): "))
+Ta=float(input("Taxa (em forma de número, exemplo: 90% --> 1.9): "))
+P=V+(V*(Ta/100)*T)
+print(f"Prestação: {P}")

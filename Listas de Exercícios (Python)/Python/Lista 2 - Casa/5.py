@@ -1,0 +1,1 @@
+print("Salário Líquido")
