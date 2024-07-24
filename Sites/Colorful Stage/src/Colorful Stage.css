@@ -1,0 +1,20 @@
+body {
+    background-color: aquamarine;
+}
+
+
+.scroll-watcher {
+    height: 10px;
+    position: fixed;
+    top: auto;
+    z-index: auto;
+    background-color: rgb(151, 22, 22);
+    width: 100%;
+    scale: 0 1;
+    animation: sroll-watcher linear;
+    animation-timeline: scroll(y);
+}
+
+@keyframes scroll-watcher {
+    to { scale: 1 1; }
+}
