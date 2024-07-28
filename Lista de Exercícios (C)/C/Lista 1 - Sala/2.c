@@ -1,11 +1,16 @@
-#include <studio.h>
+#include <stdio.h>
 
 int main()
 {
     float C, F;
-    printf("Entre F: ");
-    scanf("%f", &F);
+    
+    printf("Conversor: Fahrenheit -> Graus Centígrados\n\n");
+
+    printf("--Valores decimais devem ser digitados com (.)!--\n");
+    
+    printf("Graus (Fahrenheit): "); scanf("%f", &F);
+    
     C=(((F-32)*5)/9);
-    printf("%.2f", C);
-    return 0;
+    
+    printf("\nGraus (Centígrados): %.1fºC\n", C);
 }
