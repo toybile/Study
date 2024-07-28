@@ -1,4 +1,9 @@
-print("Conversor: Real para Dólar")
-M_Real=float(input("Valor em Real: "))
-M_Dólar=M_Real/2.40
-print(f"O mesmo valor em Dólar é: {M_Dólar}")
+print("Conversor: Real -> Dólar\n")
+
+print("--Valores decimais devem ser digitados com (.)!--")
+
+R=float(input("Valor (R$): "))
+
+D=R/2.40; D="{:.2f}".format(D)
+
+print(f"\nValor: ${D}\n")
