@@ -34,7 +34,7 @@ def main():
                 continue
             break
         except ValueError:
-            print("\n--Digite apenas o número! (em algarismo)--\n ou\n--Digite o número decimal com (.)--")
+            print("\n--Digite apenas o número! (em algarismo)--")
 
     print("")
 
