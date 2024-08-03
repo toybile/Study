@@ -1,15 +1,33 @@
-print("Para ser aprovado, sua média deverá ser maior ou igual a 6.")
-N1 = float(input("Digite a nota da primeira prova: "))
-N2 = float(input("Digite a nota da segunda prova: "))
-M = ((N1+N2)/2)
-print (f"Sua média inicial é: {M}")
+print("Aprovação - Aluno\n")
+
+print("--Valores decimais devem ser digitados com (.)!--")
+
+N1 = float(input("Nota da primeira prova: "))
+N2 = float(input("Nota da segunda prova: "))
+
+M = (N1+N2)/2
+
+print("\n==================")
+print (f"Média inicial: {M}")
+print("==================")
+
+print("")
+
 if (M>=6.0):
-    print("Aprovado")
+    print("Parabéns!!\nVocê foi aprovado!")
 else:
-    E = int(input("Digite a nota do exame para compor a média final: "))
+    E = int(input("Nota do exame (faremos uma nova média com essa nota): "))
+
     M = (M+E)/2
+
+    print("\n=================")
     print(f"Média final: {M}")
+    print("=================")
+
+    print("")
     if (M>=6.0):
-        print("Aprovado")
+        print("Parabéns!!\nVocê foi aprovado!")
     else:
-        print("Reprovado")
+        print("Você foi reprovado!")
+
+print("")
