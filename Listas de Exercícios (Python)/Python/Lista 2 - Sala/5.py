@@ -8,7 +8,7 @@ C=float(input("Valor 3: "))
 
 print("")
 
-if (A>B and C):
+if (A>B and A>C):
     print(f"Maior número: {A}")
     if (B>C):
         print(f"Número do meio: {B}")
@@ -16,7 +16,7 @@ if (A>B and C):
     else:
         print(f"Número do meio: {C}")
         print(f"Menor número: {B}")
-elif (B>A and C):
+elif (B>A and B>C):
     print(f"Maior número: {B}")
     if (A>C):
         print(f"Número do meio: {A}")

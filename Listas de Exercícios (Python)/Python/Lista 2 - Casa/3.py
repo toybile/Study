@@ -1,6 +1,6 @@
 print("Arredondando médias\n")
 
-print("--Valores decimais devem ser digitados com (.)!--")
+
 
 M=float(input("Média a ser arredondada: "))
 

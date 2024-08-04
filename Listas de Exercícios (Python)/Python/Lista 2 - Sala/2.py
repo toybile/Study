@@ -9,9 +9,7 @@ M = (N1+N2)/2
 
 print("\n==================")
 print (f"Média inicial: {M}")
-print("==================")
-
-print("")
+print("==================\n")
 
 if (M>=6.0):
     print("Parabéns!!\nVocê foi aprovado!")

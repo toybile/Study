@@ -1,3 +1,5 @@
+import time
+
 print("Mês (1 a 12)\n")
 
 M=int(input("Mês (forma numérica [1 a 12]): "))
@@ -28,5 +30,9 @@ elif (M==11):
     print("Novembro")
 elif (M==12):
     print("Dezembro")
+else:
+    print("Digite um valor entre 1 e 12!!")
 
 print("")
+
+time.sleep(3)

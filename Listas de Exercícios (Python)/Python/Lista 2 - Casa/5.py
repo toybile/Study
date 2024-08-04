@@ -35,17 +35,19 @@ while (S_B != 0):
 # Descontos =================
     if (S_B_cálculos<800):
         S_B_cálculos = S_B_cálculos
+
     if (800<=S_B_cálculos<=1600):
         S_B_cálculos = S_B_cálculos * 0.87
-    else:
-        S_B_cálculos=S_B_cálculos*0.78
+
+    if (S_B_cálculos>1600):
+        S_B_cálculos = S_B_cálculos * 0.78
 
 # =============================================================
 # =============================================================
 
     S_L=S_B_cálculos
 
-    print(f"\nSalário Líquido: {S_L}")
+    print(f"\nSalário Líquido: R${S_L}")
 
 # =
 
