@@ -1,0 +1,146 @@
+* {
+    margin: 0; margin-left: 0.1%; margin-right: 0.1%; margin-top: 0.2%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(217, 191, 228);
+}
+
+
+/* Estilos gerais */
+h1 {
+    text-align: center;
+    color: aqua;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+
+/* Navegação */
+nav {
+    position: sticky;
+    top: 10px;
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    background-color: antiquewhite;
+}
+nav ul {
+    text-align: center;
+    display: flex;
+    flex: 1;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+nav li {
+    display: inline;
+    align-items: center;
+    flex: 1;
+    font-size: x-large;
+    text-shadow: 1px 2px 10px rgb(92, 192, 10);
+}
+nav li a {
+    text-decoration: none;
+    padding: 3% 7%;
+}
+
+
+/* Cabeçalho */
+header {
+    border: 10px rgb(216, 86, 144) solid;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    padding-bottom: 7px;
+    padding-top: 1.4%;
+    font-size: 40px;
+}
+
+
+/* Estilos das divs */
+.margin {
+    margin-top: 5%;
+}
+
+.divPrincipaisNotícias,
+.divRecentesNotícias,
+.divPrincipaisNotícias_sub,
+.divRecentesNotícias_sub {
+    border: 10px black double;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: x-large;
+    text-align: center;
+}
+.divRecentesNotícias, .divRecentesNotícias_sub {
+    border-radius: 10px;
+}
+
+.divPrincipaisNotícias {
+    background-color: aquamarine;
+    width: 59.602%;
+    float: left;
+    padding: 1%;
+}
+
+.divRecentesNotícias {
+    background-color: yellow;
+    width: 40%;
+    float: left;
+    padding: 1%;
+}
+
+.divPrincipaisNotícias_sub {
+    background-color: aquamarine;
+    width: 59.602%;
+    float: left;
+    padding: 2%;
+}
+
+.divRecentesNotícias_sub {
+    background-color: yellow;
+    width: 40%;
+    float: left;
+    padding: 2%;
+}
+
+
+/* Estilos específicos para o texto e imagem */
+.container {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.divPrincipaisNotícias_sub1,
+.divPrincipaisNotícias_sub1-text {
+    border-radius: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.divPrincipaisNotícias_sub1 {
+    border: 4px black dashed;
+    width: 100%;
+    padding: 3%;
+}
+
+.divPrincipaisNotícias_sub1-text {
+    border: 2px black dotted;
+    width: 100%;
+    padding: 2%;
+}
+
+/**/
+footer {
+    margin-left: 5%;
+}
