@@ -1,0 +1,30 @@
+/* Base */
+* {
+    box-sizing: border-box;
+}
+
+div {
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+    padding: 1%;
+    position: fixed;
+}
+
+/*//*/
+/* IDs: */
+
+#square-1 {
+    background-color: rgb(165, 149, 85);
+    /*z-index: 4;*/
+}
+#square-2 {
+    background-color: aqua;
+    top: 5%;
+    left: 3%;
+}
+#square-3 {
+    background-color: darkgray;
+    top: 10%;
+    left: 6%;
+}
