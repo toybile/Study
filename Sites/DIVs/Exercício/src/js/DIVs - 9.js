@@ -29,10 +29,23 @@ toggleButton.addEventListener('click', () => {
         themeIcon.src = 'https://www.svgrepo.com/show/407540/sun.svg';
         toggleButton.classList.remove('dark-theme');
         toggleButton.classList.add('light-theme');
+
+        document.documentElement.style.setProperty('--scrollbar-thumb-bg', 'azure');
+        document.documentElement.style.setProperty('--scrollbar-thumb-border', '2px solid rgb(255, 217, 0)');
+        document.documentElement.style.setProperty('--scrollbar-thumb-box-shadow', 'inset 0px 0px 0px rgba(0, 0, 0, 0)');
+        document.documentElement.style.setProperty('--scrollbar-width', '6px');
+        document.documentElement.style.setProperty('--custom-padding-right', '2px');
+
     } else {
         themeIcon.src = 'https://www.svgrepo.com/show/532875/moon.svg';
         toggleButton.classList.remove('light-theme');
         toggleButton.classList.add('dark-theme');
+
+        document.documentElement.style.setProperty('--scrollbar-thumb-bg', 'none');
+        document.documentElement.style.setProperty('--scrollbar-thumb-border', '2px solid black');
+        document.documentElement.style.setProperty('--scrollbar-thumb-box-shadow', 'inset 0px 0px 2px black');
+        document.documentElement.style.setProperty('--scrollbar-width', '8px');
+        document.documentElement.style.setProperty('--custom-padding-right', '0px');
     }
 })
 

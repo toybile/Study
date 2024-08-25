@@ -1,3 +1,13 @@
+:root {
+    --scrollbar-width: 6px;
+    --scrollbar-thumb-bg: azure;
+    --scrollbar-thumb-border: 2px solid rgb(255, 217, 0);
+    --scrollbar-thumb-box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0);
+
+    --custom-padding-right: 0px;
+}
+
+
 /* Base */
 * {
     box-sizing: border-box;
@@ -5,7 +15,24 @@
 
 body {
     background-color: rgb(111, 0, 255);
+    padding-right: var(--custom-padding-right);
 }
+ /* scroll-bar */
+::-webkit-scrollbar {
+    width: var(--scrollbar-width);
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(111, 0, 255);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-thumb-bg);
+    border-radius: 10px;
+    border: var(--scrollbar-thumb-border);
+    box-shadow: var(--scrollbar-thumb-box-shadow);
+}
+/**/
 
 /*//*/
 /* Header */
@@ -142,24 +169,24 @@ nav {
 /*//*/
 /* Footer */
 
-footer {
-    display: flex;
-    align-items: center;
-    justify-content: right;
-}
-
 footer img {
     width: 30px;
-    padding-bottom: -10px;
 }
 
 /* button */
 
-button.light-theme {
-    border: 2px solid rgb(255, 217, 0);
+button.light-theme, button.dark-theme {
     border-radius: 20px;
     padding: 2px;
     cursor: pointer;
+    position: fixed;
+    z-index: 100;
+    bottom: 13px;
+    right: 16px;
+}
+
+button.light-theme {
+    border: 2px solid rgb(255, 217, 0);
 }
 
 /*//*/
@@ -168,9 +195,6 @@ button.light-theme {
 button.dark-theme {
     background: none;
     border: 2px solid black;
-    border-radius: 20px;
-    padding: 2px;
-    cursor: pointer;
     box-shadow: inset 0px 0px 5px black;
 }
 
