@@ -3,7 +3,8 @@ print("Salário-Aumento\n")
 Name=str(input("Nome: "))
 S_A=float(input("Salário: "))
 
-A=0
+N_S=S_A
+A=1
 
 if (S_A<401):
     A=1.15
