@@ -3,7 +3,7 @@
 #include <string.h>
 
 int main() {
-    char*E=(char*)malloc(2*sizeof(char));
+    char *E=(char*)malloc(2*sizeof(char));
 
     printf("-------------------------\n");
     printf("       Banco IFSP\n");
@@ -28,4 +28,6 @@ int main() {
     }else if (strcmp(E, "E")==0||(strcmp(E, "e")==0)){
      printf("\nEncerrando operações...\n");
     }
+
+    return 0;
 }

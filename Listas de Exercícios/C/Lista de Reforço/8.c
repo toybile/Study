@@ -16,4 +16,6 @@ int main() {
     }
 
     printf("\nSaldo final %.2f\n", S);
+
+    return 0;
 }
