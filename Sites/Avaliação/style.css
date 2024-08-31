@@ -1,0 +1,55 @@
+/* Base */
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(73, 72, 72);
+    padding: 0.8% 0.5% 0.5% 0.5%;
+}
+
+/*//*/
+/* Header */
+
+header {
+    display: flex;
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 0.6% 0% 0.6% 0%;
+}
+
+.header h1 {
+    font-size: larger;
+}
+
+/* nav - Header */
+
+nav {
+    background-color: aquamarine;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+/* ul - Header */
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li {
+    float: left;
+    list-style: none;
+}
+
+ul a {
+    display: block;
+    list-style: none;
+    text-decoration: none;
+    font-size: large;
+}
