@@ -2,7 +2,8 @@
 
 * {
     box-sizing: border-box;
-    margin: 0px;
+    padding: 0%;
+    margin: 0%;
 }
 
 body {
@@ -16,23 +17,23 @@ body {
 header {
     display: flex;
     background-color: aqua;
-    border: 1px solid black;
-    border-radius: 10px;
+    border: 2px solid black;
+    border-radius: 27px;
     align-items: center;
     justify-content: center;
     padding: 0.6% 0% 0.6% 0%;
+    position: relative;
 }
-
-.header h1 {
-    font-size: larger;
+.h1 {
+    font-size: 80px;
 }
 
 /* nav - Header */
 
 nav {
     background-color: aquamarine;
-    border: 1px solid black;
-    border-radius: 10px;
+    border: 2px solid black;
+    border-radius: 27px;
 }
 
 /* ul - Header */
@@ -51,5 +52,66 @@ ul a {
     display: block;
     list-style: none;
     text-decoration: none;
-    font-size: large;
+    font-size: xx-large;
+    padding: 0px 20px;
+    border: 1px solid transparent;
+    outline: 1px solid transparent;
+}
+
+ul a:hover {
+    border: 1px solid black;
+    outline: 1px solid white;
+    border-radius: 10px;
+}
+
+/* Search - Header */
+
+#txt-Search {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 20%;
+    height: 37%;
+    padding-left: 2%;
+    position: absolute;
+    right: 1%;
+    top: 4%;
+    font-size: xx-large;
+}
+
+/*//*/
+
+/* DIVs */
+
+#margin_header-divs{
+    margin: 5% 0%;
+}
+
+#margins-right-left_divs {
+    margin: 0% 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#left, #middle, #right {
+    background-color: rgb(218, 195, 195);
+    height: 300px;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 1%;
+    float: left;
+    font-size: x-large;
+}
+
+#left {
+
+}
+
+#middle {
+    
+}
+
+#right {
+    
 }
