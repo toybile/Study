@@ -7,10 +7,11 @@
     box-sizing: border-box;
     padding: 0%;
     margin: 0%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
-    background-color: rgb(73, 72, 72);
+    background-color: rgb(70, 38, 38);
     padding: 0.8% 0.5% 0.5% 0.5%;
 }
 
@@ -59,6 +60,7 @@ ul a {
     padding: 0px 20px;
     border: 1px solid transparent;
     outline: 1px solid transparent;
+    color: black;
 }
 
 ul a:hover {
@@ -113,7 +115,7 @@ ul a:hover {
 }
 
 #divs_margin {
-    margin: 2% 2%;
+    margin: 1% 2%;
     display: flex;
     justify-content: space-around;
 }
@@ -159,7 +161,7 @@ ul a:hover {
 }
 
 .middle {
-    background-color: yellow;
+    background-color: rgb(194, 194, 22);
 }
 
 .right {
