@@ -1,0 +1,170 @@
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+/* Base */
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: rgb(70, 38, 38);
+    padding: 0.8% 0.5% 0.5% 0.5%;
+}
+
+/*//*/
+/* Header */
+
+header {
+    display: flex;
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 27px;
+    align-items: center;
+    justify-content: center;
+    padding: 0.6% 0% 0.6% 0%;
+    position: relative;
+}
+.h1 {
+    font-size: 80px;
+}
+
+/* nav - Header */
+
+nav {
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 27px;
+}
+
+/* ul - Header */
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li {
+    float: left;
+    list-style: none;
+}
+
+ul a {
+    display: block;
+    list-style: none;
+    text-decoration: none;
+    font-size: xx-large;
+    padding: 0px 20px;
+    border: 1px solid transparent;
+    outline: 1px solid transparent;
+    color: black;
+}
+
+ul a:hover {
+    border: 1px solid black;
+    outline: 1px solid white;
+    border-radius: 10px;
+}
+
+/* Search - Header */
+
+#Search {
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 17%;
+    height: 37%;
+    padding-left: 1.4%;
+    position: absolute;
+    right: 1%;
+    top: 4%;
+    font-size: x-large;
+}
+
+#img-Search {
+    height: 100%;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+}
+
+/* button */
+#button_img-Search {
+    background: none;
+    border: none;
+    padding: none;
+    height: 30px;
+    position: absolute;
+    right: 1.5%;
+    top: 9%;
+    height: 27%;
+}
+#button_img-Search:hover {
+    cursor: pointer;
+}
+/**/
+
+/*//*/
+/* DIVs */
+
+/* between */
+#margin_header-divs{
+    margin: 7% 0%;
+}
+
+#divs_margin {
+    margin: 1% 2%;
+    display: flex;
+    justify-content: space-around;
+}
+.div-width {
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.div-width img {
+    height: 50px;
+}
+/**/
+
+/* divs */
+.margins-right-left_divs {
+    margin: 0% 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left, .middle, .right {
+    height: 300px;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 1%;
+    float: left;
+    font-size: x-large;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.left img, .middle img, .right img {
+    max-width: 110%;
+    max-height: 110%;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+.left {
+    background-color: rgb(31, 41, 25);
+}
+
+.middle {
+    background-color: rgb(194, 194, 22);
+}
+
+.right {
+    background-color: gray;
+}
+/**/
