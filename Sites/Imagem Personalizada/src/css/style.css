@@ -1,0 +1,145 @@
+@keyframes color-bg {
+    from {
+        border: 2px solid transparent;
+    }
+    to {
+        border: 2px solid var(--border-color);
+    }
+}
+@keyframes color-h1 {
+    from {
+        color: white;
+    }
+    to {
+        color: var(--h1-color);
+    }
+}
+@keyframes color-p {
+    from {
+        color: white;
+    }
+    to {
+        color: var(--p-color)
+    }
+}
+
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background: black;
+    border-radius: 200px;
+}
+::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 200px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(158, 158, 158);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: rgb(14, 12, 12);
+    width: 100%;
+    padding: 1%;
+}
+
+/* HEADER */
+header {
+    background-color: rgb(24, 20, 20);
+    border: 2px solid white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    padding: 1% 1% 0.4% 1%;
+    margin: 0% 0% 10% 0%;
+}
+
+header h1 {
+    margin-bottom: 1%;
+    font-size: 40px;
+}
+
+nav {
+    width: 95%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+ul li {
+    float: left;
+    list-style-type: none;
+    font-size: larger;
+}
+ul a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(194, 190, 190);
+    border: 1px solid transparent;
+    outline: 1px solid transparent;
+}
+ul a:hover {
+    outline: var(--border-color);
+    border-radius: 10px;
+}
+
+/* CONTAINER */
+img {
+    width: 30%;
+    border-radius: 50%;
+}
+
+.content {
+    margin: 5% 0% 3% 0%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#container > div {
+    background-color: black;
+    border-radius: 30px;
+    width: 96%;
+    min-height: 400px;
+    margin: 2% 0%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container > div {
+    animation: var(--animation);
+}
+#container div h1{
+    animation: var(--animation);
+}
+#container div p {
+    animation: var(--animation);
+}
