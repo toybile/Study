@@ -104,13 +104,7 @@ ul a:hover {
 /* CONTAINER */
 img {
     width: 30%;
-    border-radius: 50%;
-}
-
-.content {
-    margin: 5% 0% 3% 0%;
-    display: flex;
-    justify-content: space-around;
+    border-radius: 20px;
 }
 
 #container {
@@ -123,9 +117,8 @@ img {
 
 #container > div {
     background-color: black;
-    border-radius: 30px;
+    border-radius: 35px;
     width: 96%;
-    min-height: 400px;
     margin: 2% 0%;
     padding: 2%;
     display: flex;
@@ -142,4 +135,27 @@ img {
 }
 #container div p {
     animation: var(--animation);
+}
+
+
+.content {
+    margin: 5% 0% 3% 0%;
+    display: flex;
+    justify-content: space-around;
+}
+.content div {
+    display: flex;
+    justify-content: space-around;
+}
+
+#image-4 .content{
+    margin: 4% 0% 2.5% 0%;
+}
+#image-4 .content {
+    justify-content: center;
+    flex-direction: column;
+}
+
+h5 {
+    color: black;
 }

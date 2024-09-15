@@ -1,0 +1,139 @@
+#i1 img {
+    border-radius: 50%;
+}
+
+#i2 img {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+#image-4 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin: 1% 0%;
+    border-radius: 20px;
+}
+
+.polaroid {
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: max-content;
+    box-shadow: 0 4px 8px 0 rgb(156, 153, 156);
+}
+.polaroid img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+#first, .img {
+    opacity: 0.2;
+}
+
+#second {
+    opacity: 0.5;
+}
+
+
+#i7 img {
+    opacity: 0.3;
+}
+
+#i7-1 img {
+    width: 100%;
+}
+#i7-1 {
+    position: relative;
+    width: 30%;
+}
+#i7-1 .a {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+#i7-2 img {
+    width: 100%;
+}
+#i7-2 {
+    position: relative;
+    width: 30%;
+}
+#i7-2 .a {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+#i7-3 img {
+    width: 100%;
+}
+#i7-3 {
+    position: relative;
+    width: 30%;
+}
+#i7-3 .a {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+
+#i8 img:nth-child(1) {
+    filter: grayscale(100%);
+}
+#i8 img:nth-child(2) {
+    filter: blur(10px);
+}
+#i8 img:nth-child(3) {
+    filter: brightness(3);
+}
+
+.container-i9 {
+    width: 30%;
+}
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+  
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+  
+.container-i9:hover .image {
+    opacity: 0.3;
+}
+  
+.container-i9:hover .middle {
+    opacity: 1;
+}
+  
+.text-i9 {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+#i10 img:hover {
+    transform: scaleX(-1);
+}
