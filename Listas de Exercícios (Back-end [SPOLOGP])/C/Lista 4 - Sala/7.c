@@ -41,7 +41,7 @@ int main() {
     mostrar_vetor('A', A, size);
 
     
-    printf("\n# Matriz Vetorial B - (A²)\n");
+    printf("\n# Matriz Vetorial B - (A invertido)\n");
 
     vetor_invertido(B, A, size);
     mostrar_vetor('B', B, size);
