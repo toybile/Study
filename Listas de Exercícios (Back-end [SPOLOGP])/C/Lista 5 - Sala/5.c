@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 
 void ler_vetor(char vetor_type, float vetor[], int size) {
     printf("\n");
